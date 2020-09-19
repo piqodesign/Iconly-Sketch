@@ -1,7 +1,14 @@
- <item>
-    <title>Iconly v2.0.0</title>
-    <description>
-        500+ Free icons for your next project in 5 styles (Light, Bold, Bulk, Two-tone, Broken)
-    </description>
-    <enclosure url="https://github.com/piqodesign/Iconly-Sketch/archive/essential.zip" sparkle:version="2.0.0"/>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0.0">
+<channel>
+<title>Iconly v2.0.0</title>
+<link>https://raw.githubusercontent.com/carlosflrg/name-my-color/master/appcast.xml</link>
+<description>
+  500+ Free icons for your next project in 5 styles (Light, Bold, Bulk, Two-tone, Broken)
+</description>
+<language>en</language>
+<item>
+  <enclosure url="https://github.com/piqodesign/Iconly-Sketch/archive/essential.zip" sparkle:version="2.0.0"/>
 </item>
+</channel>
+</rss>
