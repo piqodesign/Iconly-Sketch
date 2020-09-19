@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICONLY</title>
+    <link rel="stylesheet" href="74e7834b3d82029b03f5abf928ab8ef0.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container hide">
+        <h3 class="title">
+            <svg width="73" height="21" viewBox="0 0 73 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M52.9913 0.185547H56.4357V16.0288H52.9913V0.185547ZM0 0.185624H3.44442V16.0289H0V0.185624ZM27.9195 1.48806C23.8905 1.48806 20.5992 4.8225 20.5992 8.9618C20.5992 13.1011 23.8337 16.378 27.9195 16.378C32.0052 16.378 35.2966 13.0436 35.2966 8.9618C35.2966 4.87998 31.9485 1.48806 27.9195 1.48806ZM27.9195 12.9286C25.7631 12.9286 24.004 11.1464 24.004 8.9618C24.004 6.77715 25.7631 4.93745 27.9195 4.93745C30.0759 4.93745 31.8918 6.71967 31.8918 8.9618C31.8918 11.2039 30.0759 12.9286 27.9195 12.9286ZM16.3998 6.71967C15.6621 5.62735 14.4137 4.93745 13.1085 4.93745C10.8954 4.93745 9.19296 6.77715 9.19296 9.01927C9.19296 11.2614 10.9521 13.0436 13.1085 13.0436C14.4704 13.0436 15.6621 12.3537 16.3998 11.2614L19.2372 13.1586C17.8185 15.2282 15.5486 16.4355 13.1085 16.4355C9.07948 16.4355 5.78817 13.1011 5.78817 8.9618C5.78817 4.8225 9.07948 1.48806 13.1085 1.48806C15.6054 1.48806 17.8752 2.69535 19.2372 4.76499L16.3998 6.71967ZM43.5249 1.71821C39.7796 1.71821 37.0556 4.36276 37.0556 8.04213V16.1483H40.4605V8.04213C40.4605 5.91499 42.1063 5.16761 43.5249 5.16761C44.9435 5.16761 46.5893 5.91499 46.5893 8.04213V16.1483H49.9942V8.04213C50.0509 4.36276 47.3269 1.71821 43.5249 1.71821ZM66.0535 11.1467L69.5715 2.12075V2.17824H72.8629L69.9691 9.537C69.189 11.3366 68.7399 12.4325 68.4954 13.0293C68.4198 13.2142 68.3634 13.3512 68.3232 13.4463C67.4721 15.286 66.6209 16.7807 65.7127 17.8731C64.8616 19.0229 63.8402 19.8277 62.8189 20.2876C61.911 20.6901 60.8326 20.8626 59.5843 20.8626H58.4494V17.4706H60.0949C61.5702 17.4131 62.3082 17.0682 63.1593 16.1484C63.4431 15.8034 63.67 15.4585 63.9537 14.9986L58.9601 2.12075H62.5352L66.0535 11.1467Z" fill="black"/>
+            </svg>
+        </h3>
+        <input type="text" id="search-inp" name="serach" id="serach" placeholder="Search something...">
+        <div id="list-container">
+            <div class="divider top"></div>
+            <div id="icon-container">
+
+            </div>
+            <div class="divider bottom"></div>
+        </div>
+        <ul class="types-btn">
+        </ul>
+        <div class="copyright">
+            Made with 💜 by <a href="https://piqo.design" id="piqo-link" target="_blank"><span class="purple">Piqo design</span></a>
+        </div>
+        <div class="not-found-container active">
+            <div>
+                <svg viewBox="0 0 80 80" class="not-found" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.2">
+                    <path d="M38.9619 69.184C55.5093 69.184 68.9237 55.7696 68.9237 39.2221C68.9237 22.6746 55.5093 9.26025 38.9619 9.26025C22.4144 9.26025 9 22.6746 9 39.2221C9 55.7696 22.4144 69.184 38.9619 69.184Z" stroke="#200E32" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M29.25 36.3335C31.0449 36.3335 32.5 34.8784 32.5 33.0835C32.5 31.2886 31.0449 29.8335 29.25 29.8335C27.4551 29.8335 26 31.2886 26 33.0835C26 34.8784 27.4551 36.3335 29.25 36.3335Z" fill="#200E32"/>
+                    <path d="M48.75 36.3335C50.5449 36.3335 52 34.8784 52 33.0835C52 31.2886 50.5449 29.8335 48.75 29.8335C46.9551 29.8335 45.5 31.2886 45.5 33.0835C45.5 34.8784 46.9551 36.3335 48.75 36.3335Z" fill="#200E32"/>
+                    <path d="M27 51C27 51 32.8776 47 39 47C45.1224 47 51 51 51 51" stroke="#200E32" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M60.061 61.6174L71.8078 73.3337" stroke="#200E32" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
+                    
+                <p class="not-found-title">Nothing found</p>
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhRQgmLLly2e-BAopAMiQVOdfXp0RiHaPZ63898EaUbkCuPA/viewform?usp=sf_link"
+                target="_blank" class="request-btn">Request Icon</a>
+        </div>
+    </div>
+    <div class="loading active">
+        <div class="loader"></div>
+        <p>Loading Icons...</p>
+    </div>
+    <script src="../resources_webview.js"></script>
+</body>
+
+</html>

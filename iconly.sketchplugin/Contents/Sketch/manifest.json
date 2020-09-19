@@ -1,0 +1,32 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "description": "500+ Free icons for your next project in 5 styles (Light, Bold, Bulk, Two-tone, Broken)",
+  "author": "Piqo Design",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Iconly",
+      "identifier": "iconly.my-command-identifier",
+      "script": "__my-command.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "Iconly",
+    "items": [
+      "iconly.my-command-identifier"
+    ],
+    "isRoot": true
+  },
+  "version": "2.0.0",
+  "name": "Iconly",
+  "identifier": "Iconly",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
