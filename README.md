@@ -1,4 +1,4 @@
-# Iconly
+# Iconly Sketch
 
 ## Installation
 
